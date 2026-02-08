@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChecksumModule</class>
+ <widget class="QWidget" name="ChecksumModule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校验和</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupConfig">
+     <property name="title">
+      <string>校验和配置</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="labelChecksumType">
+        <property name="text">
+         <string>校验和类型:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboChecksumType">
+        <item>
+         <property name="text">
+          <string>8位累加和</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16位累加和</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16位补码和</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32位累加和</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>异或和</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LRC校验</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fletcher-16</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Adler-32</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkHexInput">
+        <property name="text">
+         <string>十六进制输入</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkRealTime">
+        <property name="text">
+         <string>实时计算</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupInput">
+     <property name="title">
+      <string>输入数据</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPlainTextEdit" name="editInput">
+        <property name="placeholderText">
+         <string>请输入要计算校验和的数据...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupResult">
+     <property name="title">
+      <string>校验和结果</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="editResult">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="placeholderText">
+         <string>校验和计算结果将显示在这里...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="btnCalculate">
+          <property name="text">
+           <string>计算</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnClear">
+          <property name="text">
+           <string>清空</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnCopyResult">
+          <property name="text">
+           <string>复制结果</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
