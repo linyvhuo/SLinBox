@@ -338,7 +338,7 @@ void SettingsDialog::onUserGuideClicked()
 
 void SettingsDialog::onUserAgreementClicked()
 {
-    UserGuideDialog dialog(this);
+    UserAgreementDialog dialog(this);
     dialog.exec();
 }
 

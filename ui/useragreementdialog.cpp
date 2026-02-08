@@ -1,4 +1,4 @@
-#include "useragreementdialog.h"
+﻿#include "useragreementdialog.h"
 #include "ui_useragreementdialog.h"
 #include "core/logger.h"
 
@@ -32,37 +32,37 @@ void UserAgreementDialog::initUI()
 
 void UserAgreementDialog::loadConfig()
 {
-    bool agreed = m_config->getValue("General", "UserAgreed", false).toBool();
+    bool agreed = m_config->getValue("General", "用户同意", false).toBool();
     
     if (agreed) {
         ui->checkAgree->setChecked(true);
         ui->btnAgree->setEnabled(true);
-        m_logger->info("UserAgreement", "User has already agreed to the agreement");
+        m_logger->info("用户协议", "用户已同意本协议");
     }
 }
 
 void UserAgreementDialog::saveConfig()
 {
-    m_config->setValue("General", "UserAgreed", ui->checkAgree->isChecked());
+    m_config->setValue("General", "用户同意", ui->checkAgree->isChecked());
     m_config->sync();
 }
 
 void UserAgreementDialog::onAgreeClicked()
 {
-    m_config->setValue("General", "UserAgreed", true);
+    m_config->setValue("General", "用户同意", true);
     m_config->sync();
     
     ui->checkAgree->setChecked(true);
     ui->btnAgree->setEnabled(true);
     
-    m_logger->info("UserAgreement", "User agreed to the agreement");
+    m_logger->info("用户协议", "用户同意本协议");
     
     accept();
 }
 
 void UserAgreementDialog::onDisagreeClicked()
 {
-    m_logger->info("UserAgreement", "User disagreed to the agreement");
+    m_logger->info("用户协议", "用户不同意本协议");
     
     reject();
 }

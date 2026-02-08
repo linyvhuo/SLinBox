@@ -52,7 +52,6 @@ SOURCES += \
     core/globalhotkeymanager.cpp \
     modules/wechatauto/wechatautomodule.cpp \
     modules/screenshotocr/screenshotocrmodule.cpp \
-#    modules/screenshotocr/screenshoteditor.cpp \
     modules/serialport/serialportmodule.cpp \
     modules/baseconvert/baseconvertmodule.cpp \
     modules/crccheck/crccheckmodule.cpp \
@@ -78,7 +77,6 @@ HEADERS += \
     core/globalhotkeymanager.h \
     modules/wechatauto/wechatautomodule.h \
     modules/screenshotocr/screenshotocrmodule.h \
-#    modules/screenshotocr/screenshoteditor.h \
     modules/serialport/serialportmodule.h \
     modules/baseconvert/baseconvertmodule.h \
     modules/crccheck/crccheckmodule.h \
@@ -106,7 +104,6 @@ FORMS += \
     ui/screenshoteditorwindow.ui \
     modules/wechatauto/wechatautomodule.ui \
     modules/screenshotocr/screenshotocrmodule.ui \
-#    modules/screenshotocr/screenshoteditor.ui \
     modules/serialport/serialportmodule.ui \
     modules/baseconvert/baseconvertmodule.ui \
     modules/crccheck/crccheckmodule.ui \
