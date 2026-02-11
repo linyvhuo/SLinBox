@@ -85,7 +85,8 @@
 
 | 版本 | 百度网盘链接 | 提取码 |
 |------|-------------|--------|
-| V1.1.1 | https://pan.baidu.com/s/1rC7creCLcFl8TJg4YhXnxA?pwd=SLin | SLin |
+| V1.1.1 | https://pan.baidu.com/s/1rC7creCLcFg4YhXnxA?pwd=SLin | SLin |
+| V1.1.2 | https://pan.baidu.com/s/1C5XWZ7aIHs3BmykddKUNTw | SLin |
 
 ### 下载说明
 1. 打开链接，输入提取码获取文件
