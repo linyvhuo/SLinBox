@@ -87,6 +87,7 @@
 |------|-------------|--------|
 | V1.1.1 | https://pan.baidu.com/s/1rC7creCLcFg4YhXnxA?pwd=SLin | SLin |
 | V1.1.2 | https://pan.baidu.com/s/1C5XWZ7aIHs3BmykddKUNTw | SLin |
+| V2.0.1 | https://pan.baidu.com/s/1h2O0gXTtjVwMD8wByNZEWQ?pwd=SLin | SLin |
 
 ### 下载说明
 1. 打开链接，输入提取码获取文件
