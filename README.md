@@ -81,7 +81,7 @@
 - 点击"设置"按钮后自动最小化主程序窗口
 - 自动激活并置顶企业微信窗口
 - 支持区域截图设置识别图标
-- 截图保存路径：`D:/OneDrive - linl/文档/SLinBox/templates/`
+- 截图保存路径：`文档/SLinBox/templates/`
 - 设置成功后显示预览对话框
 
 ### 计划表悬浮窗功能增强
@@ -139,7 +139,8 @@
 | V1.1.1 | `https://pan.baidu.com/s/1rC7creCLcFg4YhXnxA?pwd=SLin`  | SLin |
 | V1.1.2 | `https://pan.baidu.com/s/1C5XWZ7aIHs3BmykddKUNTw`  | SLin |
 | V2.0.1 | `https://pan.baidu.com/s/1h2O0gXTtjVwMD8wByNZEWQ?pwd=SLin`  | SLin |
-| V3.0.0 | `https://pan.baidu.com/s/1B0W_gMXe73lQb7p82Zq4LQ?pwd=SLin` | SLin |
+| V3.0.0 | `https://pan.baidu.com/s/1O9uvIqPN6YtrgxKwXQBLUQ?pwd=SLin` | SLin |
+
 ### 下载说明
 1. 打开链接，输入提取码获取文件
 2. 建议下载最新版本，功能更完整
